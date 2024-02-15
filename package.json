@@ -1,0 +1,15 @@
+{
+  "name": "autoexercise",
+  "version": "1.0.0",
+  "description": "E2E FramWork",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "author": "rickman",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  }
+}
