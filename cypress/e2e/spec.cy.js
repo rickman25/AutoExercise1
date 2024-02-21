@@ -34,9 +34,9 @@ describe('Automation Exercise', () => {
 
     //Ingresar Datos incorrectos
     cy.get('[data-qa="login-email"]').click()
-    cy.get('[data-qa="login-email"]').type('xxxxxxx@gmail.com')
+    cy.get('[data-qa="login-email"]').type('xxxxxxxx@gmail.com')
     cy.get('[data-qa="login-password"]').click()
-    cy.get('[data-qa="login-password"]').type('xxxxxxx1')
+    cy.get('[data-qa="login-password"]').type('xxxxxxxx')
 
     //Logearse presionando el Boton Login
     cy.get('[data-qa="login-button"]').should('have.text','Login');
